@@ -15,6 +15,8 @@
 		1E5F448124099D14008E5475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5F447F24099D14008E5475 /* LaunchScreen.storyboard */; };
 		1E5F448C24099D15008E5475 /* TeleprompterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F448B24099D15008E5475 /* TeleprompterTests.swift */; };
 		1E5F449724099D16008E5475 /* TeleprompterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F449624099D16008E5475 /* TeleprompterUITests.swift */; };
+		1E5F44A52409C781008E5475 /* TeleprompterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F44A42409C781008E5475 /* TeleprompterViewController.swift */; };
+		1E5F44A72409D63C008E5475 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F44A62409D63C008E5475 /* Orientation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1E5F449224099D15008E5475 /* TeleprompterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeleprompterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5F449624099D16008E5475 /* TeleprompterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterUITests.swift; sourceTree = "<group>"; };
 		1E5F449824099D16008E5475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E5F44A42409C781008E5475 /* TeleprompterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterViewController.swift; sourceTree = "<group>"; };
+		1E5F44A62409D63C008E5475 /* Orientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orientation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				1E5F447D24099D14008E5475 /* Assets.xcassets */,
 				1E5F447F24099D14008E5475 /* LaunchScreen.storyboard */,
 				1E5F448224099D14008E5475 /* Info.plist */,
+				1E5F44A42409C781008E5475 /* TeleprompterViewController.swift */,
+				1E5F44A62409D63C008E5475 /* Orientation.swift */,
 			);
 			path = Teleprompter;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E5F447924099CFD008E5475 /* ViewController.swift in Sources */,
+				1E5F44A72409D63C008E5475 /* Orientation.swift in Sources */,
 				1E5F447524099CFD008E5475 /* AppDelegate.swift in Sources */,
+				1E5F44A52409C781008E5475 /* TeleprompterViewController.swift in Sources */,
 				1E5F447724099CFD008E5475 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
